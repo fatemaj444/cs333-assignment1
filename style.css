@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  #welcome message {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightpink;
+  } 
+
+  #weekly schdule{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: lightgreen;
+  } 
+  
