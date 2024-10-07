@@ -1,21 +1,117 @@
 body {
-    background-color: lightblue;
+    background-color: #bfd8d3
   }
   
-  h1 {
-    color: white;
+  header {
+    color: #367b6c;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;   
+  }
+
+  footer{
+    color: #333;
     text-align: center;
   }
   
-  #welcome message {
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightpink;
-  } 
+  /*مسج الترحيب*/
+  .welcome-message {
+    background-color: #f0fffd;
+    color: #333;     
+    font-family: 'Arial', sans-serif;
+    padding: 20px; 
+    margin: 30px auto; 
+    width: 50%;
+    border: 2px solid #c7c92b;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
 
-  #weekly schdule{
-    font-size: medium;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     color: lightgreen;
-  } 
-  
+/*هذا الجدول*/
+table {
+  width: 90%;              
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.aligning {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  margin: 0;              /* Remove default body margin */
+}
+
+th {
+    background-color: #c7c92b;
+    color: #ffffff;
+    padding: 12px;
+    border: 1px solid #ddd; 
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;  
+} 
+
+tr:nth-child(1){
+  background-color: #c7c92b;
+  color: #ffffff;
+}
+
+tr {
+   background-color: #f2f2f2;border: 1px solid #6c6c6c;
+}
+
+tbody td:hover {
+  background-color: #ddd;
+}
+
+ /*الاناونسمنتس*/
+ .announcments {
+  background-color: #f0fffd;
+  color: #333;     
+  font-family: 'Arial', sans-serif;
+  padding: 20px; margin: 30px auto; width: 30%;
+  border: 2px solid #c7c92b;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/*الريسورسس*/
+.box {
+  background-color: #f0fffd;
+  color: #333;     
+  font-family: 'Arial', sans-serif;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  display: inline-block;
+  border: 2px solid #c7c92b;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+  background-color: #c7c92b;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Parents-Resources {
+  display: flex;
+  justify-content: space-around;
+
+}
