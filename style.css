@@ -83,24 +83,25 @@ nav ul li a:hover {
 }
 
 
-/* Announcements Box */
+
 .announcements {
-  display: flex; /* Use flexbox for horizontal layout */
-  justify-content: center; /* Center the resources */
-  gap: 20px; /* Space between resource items */
-  margin-top: 20px; /* Space above the resources */
   padding: 20px;
   margin: 20px 0; 
 }
 
 .announcement-box {
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center; /* Center the resources */
+  gap: 20px; /* Space between resource items */
+  margin-top: 20px; /* Space above the resources */
+
   background-color: #FFB6C1;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center; 
-    max-width: 600px; 
-    margin: flex; 
+  max-width: 600px; 
+  margin: flex;
 }
 
 .announcement-box h3 {
@@ -133,6 +134,13 @@ nav ul li a:hover {
   border-radius: 10px; /* Rounded corners for the boxes */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 } 
+
+.Parents-Resource .resources img {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 
 
@@ -172,6 +180,11 @@ table {
   border-collapse: collapse;
   margin: 20px 0;
   background-color: #FFF8DC;
+} 
+
+table tr:first-child {
+  background-color: #e2f8f0;
+  
 }
 
 th, td {
@@ -181,7 +194,7 @@ th, td {
 }
 
 th {
-  background-color: #C1E1D6;
+  background-color: #e2f8f0;
   color: #333;
 }
 
